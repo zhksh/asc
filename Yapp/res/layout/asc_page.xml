@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkg"
+    android:orientation="vertical" >
+	
+    <TextView
+        android:id="@+id/sidtime"
+        style="@style/asc_data"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/asc"
+        style="@style/asc_string"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ascAstronomisch"
+            style="@style/asc_data"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/loctime"
+            style="@style/asc_data"
+            android:fontFamily="sans-serif-thin"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/jdtag"
+            style="@style/asc_data"
+            android:fontFamily="sans-serif-thin"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/langen"
+            style="@style/asc_data"
+            android:fontFamily="sans-serif-thin"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/breiten"
+            style="@style/asc_data"
+            android:fontFamily="sans-serif-thin"
+            android:text="" />
+    </LinearLayout>
+  <!--   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginBottom="20sp"
+            android:layout_weight="0"
+            android:background="@android:color/transparent"
+            android:fontFamily="sans-serif-thin"
+            android:onClick="exitApp"
+            android:text="exit"
+            android:textColor="#ededed"
+            android:textSize="30sp" >
+        </Button>
+    </LinearLayout>  -->
+
+</LinearLayout>
